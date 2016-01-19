@@ -11,8 +11,12 @@ npm install streets-austria --save
 ```js
 var streetsAustria = require('streets-austria');
 ```
-## structure
 
+## Structure
+streets-austria exposes a JSON array containing all cities in Austria. Every city has a code (Gemeindekennziffer), a name and an array of
+streets. Every street has a code, name and a zip code.
+
+```
 [
   {
     "code": "10101",
@@ -37,10 +41,8 @@ var streetsAustria = require('streets-austria');
         "code": "000010",
         "name": "Sankt-Antoni-Straße",
         "zipCode": "7000"
-      },
-
-# Generation
-
-    git clone
-
-    node _convert.js
+      }
+    ]
+  }
+]
+```
