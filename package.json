@@ -1,0 +1,16 @@
+{
+  "name": "streets-austria",
+  "version": "1.0.0",
+  "description": "JSON data containing valid streets in Austria",
+  "repository": "saintedlama/streets-austria",
+  "author": "Christoph Walcher <christoph.walcher@gmail.com>",
+  "license": "ISC",
+  "main": "cities.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "lodash": "^4.0.0",
+    "xml2js": "^0.4.16"
+  }
+}
