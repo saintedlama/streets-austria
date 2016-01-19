@@ -50,12 +50,11 @@ function map(raw) {
         console.log('City with same code but different name discovered', e[0], e[1]);
       }
 
-      currentCity.streets = currentCity.streets || [];
-      var street = {
+      currentCity.streets.push({
         code: e[4],
         name:e[5],
         zipCode: e[6]
-      };
+      });
     });
 
     return cities;
